@@ -35,7 +35,7 @@ def get_groq_client():
 
     # Streamlit Cloud: st.secrets
     try:
-        api_key = st.secrets.get("GROQ_API_KEY")
+        api_key = st.secrets.get("GROK_API_KEY")
     except Exception:
         pass
 
